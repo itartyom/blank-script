@@ -1,0 +1,11 @@
+[project]
+name = "blank-script"
+version = "0.1.0"
+description = """
+Для обычных сценариев для которых хватит и глобала, которому не нужны тесты итд
+"""
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "typer>=0.16.0",
+]
